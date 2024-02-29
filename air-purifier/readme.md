@@ -39,10 +39,10 @@ Creating an open-sourced air filter with easily available parts that takes a sta
 - Fans
 	- Proof of concept old spare fans
 	- RGB Fans (?)
-	- 200mm 12V DC computer fans - 5.5 x 5.5 x 1 (inches)
+	- 200mm 12V DC computer fans – 7.8 x 7.8 x 1.2 (inches)
 		- Noctua NF-A20 PWM, Premium Quiet Fan, 4-Pin (200x30mm, Brown) $30
 		https://a.co/d/cgoiEaX 
-	- 140mm 12V DC computer fans – 7.8 x 7.8 x 1.2 (inches)
+	- 140mm 12V DC computer fans - 5.5 x 5.5 x 1 (inches)
 		- Noctua NF-A14 PWM, Premium Quiet Fan, 4-Pin (140mm, Brown) $24
 		https://a.co/d/6b2wM2v 
 - Fan control
