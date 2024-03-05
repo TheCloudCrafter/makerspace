@@ -1,11 +1,13 @@
 # Build notes
 
-# Shortcomings
+
+
+# Challenges
 
 ## Fan speed controller
 
-Attempted to use a PWM fan controller to manage fan speed.  
-PWM Fan controllers require fans that have 4pin and not 3pins.  
+Attempted to use a 4Pin PWM fan controller to manage fan speed.  
+PWM Fan controllers require fans that have a 4th pin to a speed controller chip.  
 3 pin fans are missing the speed controller chip required for the PWM Fan controller.
 
 Switched to a standard DC motor controller.  
@@ -30,9 +32,20 @@ https://www.eenewseurope.com/en/new-automotive-power-over-ethernet-standard-exte
 
 ## Power source
 
-SmoTecQ 12V 2A Power Supply AC Adapter, AC 100-240V to DC 12 Volt Transformers, 2.1mm X 5.5mm Wall Plug (12 Volt - 2amp - 2pack)  
+Originally I used a universial 5V / 1 Amp power adaptor I've been using for my basic breadboard activities. Unfortunately I ran into performance issues that turned out to be due to the power load. The fans I'm running are:
+
+- [2] Corsair 31-002319  
+DC 12V 0.39A | 4.68W [9.36W]
+- [1] Scythe DFS1238/12H-3000  
+DC 12V 0.60A [7.2W]  
+- **Total Load 16.56W**
+
+Current power adaptor is 12V * 1 Amp = 12 Watts max load.  
+New power adaptor is 12V * 2 Amp = **24 Watts max load.**  
+
+SmoTecQ 12V 2A Power Supply AC Adapter Wall Plug (12 Volt - 2amp - 2pack)  
 https://a.co/d/dJlWppt  
-![](https://m.media-amazon.com/images/I/61vPmtoGlQL._AC_SL1200_.jpg)
+![](https://m.media-amazon.com/images/I/61vPmtoGlQL._AC_SL1200_.jpg)  
 
 # Lessons learned
 
