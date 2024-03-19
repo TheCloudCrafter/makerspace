@@ -1,6 +1,6 @@
 # Build notes
 
-
+Roughed out a proof of concept: https://imgur.com/a/lk1jiVA
 
 # Challenges
 
